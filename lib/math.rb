@@ -1,11 +1,11 @@
 def addition(num1, num2)
   adds = num2 + num1
-  print adds
+  return adds
 end
 
 def subtraction(num1, num2)
   subtracts = num1 - num2
-  puts subtracts
+  return subtracts
 end
 
 def division(num1, num2)
@@ -15,17 +15,17 @@ end
 
 def multiplication(num1, num2)
   multiplies = num1 * num2
-  puts multiplies
+  return multiplies
 end
 
 def modulo(num1, num2)
   modulate = num1 % num2
-  puts modulate
+  return modulate
 end
 
 def square_root(num)
   square_root = Math.sqrt(num)
-  puts square_root
+  return square_root
 end
 
 puts addition(5,4)

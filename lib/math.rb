@@ -1,6 +1,6 @@
 def addition(num1, num2)
-  join == num1 + num2
-  puts join
+  adds == num2 + num1
+  puts adds
 end
 
 def subtraction(num1, num2)

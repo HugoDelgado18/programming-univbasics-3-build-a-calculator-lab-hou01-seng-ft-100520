@@ -10,7 +10,7 @@ end
 
 def division(num1, num2)
   divides = num1 / num2
-  puts divides
+  return divides
 end
 
 def multiplication(num1, num2)

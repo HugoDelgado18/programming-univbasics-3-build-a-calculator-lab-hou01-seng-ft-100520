@@ -28,7 +28,7 @@ def square_root(num)
   puts sqrt
 end
 
-addition(5,4)
+puts addition(5,4)
 puts subtraction(10, 5)
 puts division(50, 2)
 puts multiplication(4, 30)

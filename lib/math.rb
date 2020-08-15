@@ -1,6 +1,6 @@
 def addition(num1, num2)
   adds == num2 + num1
-  return adds
+  puts adds
 end
 
 def subtraction(num1, num2)
@@ -28,7 +28,7 @@ def square_root(num)
   puts sqrt
 end
 
-puts addition(5, 4)
+puts addition(5,4)
 puts subtraction(10, 5)
 puts division(50, 2)
 puts multiplication(4, 30)
